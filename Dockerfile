@@ -1,10 +1,5 @@
 FROM alpine:3.12.4
 
-RUN apk add curl
-RUN apk add jq
-
-FROM alpine:3.12.4
-
 ENV KUBECTL_VERSION="v1.7.0"
 
 RUN apk add curl
